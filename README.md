@@ -1,10 +1,14 @@
 # Todo List
 
-Layout: https://www.figma.com/design/RF0hv6p4ez9cTStMIzxDoB/ToDo-List-%E2%80%A2-Desafio-React-(Copy)?node-id=4130-491&node-type=frame&t=pZp7r6YNC2pZMvht-0
+Task management application in a to-do list style, with the following features:
 
-Nesse desafio, você vai desenvolver uma aplicação de controle de tarefas no estilo **to-do list**, que contém as seguintes funcionalidades:
+- Add a new task
+- Mark and unmark a task as completed
+- Remove a task from the list
+- Display task completion progress
 
-- Adicionar uma nova tarefa
-- Marcar e desmarcar uma tarefa como concluída
-- Remover uma tarefa da listagem
-- Mostrar o progresso de conclusão das tarefas
+
+
+
+
+
