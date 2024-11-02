@@ -1,0 +1,31 @@
+.tasksListContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+.tasksCreated {
+  color: var(--blue);
+}
+.tasksCompleted {
+  color: var(--purple);
+}
+.tasksListContainer span {
+  background-color: var(--gray-400);
+  border-radius: 16px;
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+  padding: 0.125rem 0.5rem;
+}
+
+@media (max-width: 420px) {
+  .tasksListContainer {
+    flex-flow: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+}

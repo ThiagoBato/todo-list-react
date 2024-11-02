@@ -4,7 +4,7 @@ import logo from '../../assets/img/logo.svg'
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <img src={logo} alt="todo" />
+      <img src={logo} alt="Todo Logo" />
     </header> 
   )
 }

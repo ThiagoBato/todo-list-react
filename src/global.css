@@ -1,4 +1,7 @@
 :root {
+  --white: #fff;
+  --dark: #000;
+
   --blue: #4ea8de;
   --blue-dark: #1e6f9f;
   --purple: #8284fa;
@@ -19,11 +22,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: none;
 }
 body {
   background-color: var(--gray-600);
   color: var(--gray-100);
-  -webkit-font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 body,
@@ -36,8 +40,16 @@ button {
   font-style: normal;
 }
 
+.container {
+  max-width: 736px;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 87, 5%;
+  }
+  .container {
+    padding: 0 1rem;
   }
 }
